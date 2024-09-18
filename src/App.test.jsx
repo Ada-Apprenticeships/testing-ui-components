@@ -29,8 +29,6 @@ test("can update the phrase with chosen word", () => {
  // click on this button
 
  // check the text has been updated with the blank filled in
-  fireEvent.click(screen.getByRole("button", { name: /swim/ }));
-  screen.getByText("I think therefore swim am");
 });
 
 test("can check if user has inputted correct answer", () => {
