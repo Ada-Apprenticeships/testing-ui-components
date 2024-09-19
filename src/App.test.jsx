@@ -13,6 +13,7 @@ test.only("renders the starting phrase with hidden words", () => {
       { word: "am", display: true },
     ],
     options: ["think", "therefore", "swim", "wonder"],
+    answer: 'I think therefore I am'
   };
 
   render(<Quiz {...props} />);

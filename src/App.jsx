@@ -8,7 +8,7 @@ const words = [
   { word: "I", display: false },
   { word: "am", display: true },
 ];
-console.log(words, "<---- words");
+
 const quizProps = {
   words,
   options: ["think", "therefore", "swim", "wonder", "I"],
